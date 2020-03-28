@@ -1,0 +1,27 @@
+{
+  "name": "storyblok-mui-etherhill",
+  "version": "1.0.0",
+  "description": "Next.js Storyblok Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "analyze:both": "BUNDLE_ANALYZE=both yarn build",
+    "analyze:browser": "BUNDLE_ANALYZE=browser yarn build",
+    "analyze:server": "BUNDLE_ANALYZE=server yarn build",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "now",
+    "deploy-prod": "now --prod"
+  },
+  "author": "Dominic Garms <djgarms@gmail.com>",
+  "license": "ISC",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "@lumen/mwc": "git+https://github.com/dohomi/storyblok-nexjs-mwc.git#0.20.4",
+    "next": "9.3.2",
+    "next-compose-plugins": "^2.2.0",
+    "typescript": "^3.8.2"
+  }
+}

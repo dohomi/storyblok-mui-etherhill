@@ -1,0 +1,67 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "downlevelIteration": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "outDir": "dist",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": false,
+    "baseUrl": "./",
+    "paths": {
+      "@components": [
+        "node_modules/@lumen/mwc/components/ComponentRender.tsx"
+      ],
+      "@fonts": [
+        "node_modules/@lumen/mwc/components/fonts.ts"
+      ],
+      "@polyfills": [
+        "node_modules/@lumen/mwc/client/polyfills.js"
+      ],
+      "@initialData/*": [
+        "node_modules/@lumen/mwc/src/utils/initial-props/*"
+      ],
+      "@projects": [
+        "./projects.json"
+      ]
+    },
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules",
+    ".next",
+    ".storybook",
+    "dist",
+    "node_modules/@lumen/mwc/**/*.stories.*",
+    "*.stories.*",
+    "*.test.*",
+    ".storybook",
+    "server"
+  ],
+  "include": [
+    "next-env",
+    "**/*.ts",
+    "**/*.tsx",
+    "node_modules/@lumen/mwc/**/*.ts",
+    "node_modules/@lumen/mwc/**/*.tsx",
+    "node_modules/@lumen/mwc/**/*.js"
+  ]
+}
