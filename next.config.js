@@ -1,8 +1,8 @@
 let config = require('@lumen/mwc/nextjs_basic_config')
 
 module.exports = config({
-  previewToken: 'UvABqQAdrEMCeCG2N0wePQtt',
-  publicToken: 'PhCU8L1FyvZlsW2H522WRQtt',
+  previewToken: 'Phi41Cyvru21eG5krXrfEgtt',
+  publicToken: 'UNJB9nAEyxrldv4hXwO61Att',
   // languages: process.env.languages,
   defaultLocale: 'en',
   rootDirectory: 'etherhill'
