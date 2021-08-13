@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@lumen/mwc": "git+https://github.com/dohomi/storyblok-nexjs-mwc.git#0.26.1",
-    "next": "9.3.4",
+    "next": "11.1.0",
     "next-compose-plugins": "^2.2.0",
     "typescript": "^3.8.2"
   }
